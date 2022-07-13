@@ -1,0 +1,157 @@
+@use './scss/' as *;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+.container{
+    width: 1600px;
+    height: 960px;
+    background-image: linear-gradient(114.99deg, #471CA9 -0.99%, #753CAF 54.28%, #A173D0 78.99%);
+    position: relative;
+    .bg-3d{
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        position: absolute;
+        top:794px;
+        left: 115px;
+        width: 230.15px;
+        height: 62.86px;
+    }
+    .logo-top-right{
+        width: 133px;
+        height: 133px;
+        background-color: #FFC700;
+        border-radius: 0 0 0 50px;
+        position: absolute;
+        top:0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 61px;
+            height: 61px;
+        }
+    }
+    .logo-item{
+        width: 105.39px;
+        height: 105.39px;
+        background-color: rgba(255, 255, 255, 0.17);
+        border-radius: 31.6179px;
+        position: absolute;
+        left: 538.61px;
+        top: 776px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .background-img{
+            width: 90.8px;
+            height: 85.94px;
+            background: url('./assets/image\ 195.png');
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 73.78px;
+                height: 73.78px;
+            }
+        }
+    }
+    .logo-item-1{
+        width: 105.39px;
+        height: 105.39px;
+        background-color: rgba(255, 255, 255, 0.17);
+        border-radius: 31.6179px;
+        position: absolute;
+        left:417px;
+        top: 776px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        img{
+            width: 73.78px;
+            height: 73.78px;
+            object-fit: cover;
+            filter: drop-shadow(-0.810714px 4.86429px 29.9964px #FFC83A);
+            
+        }
+    }
+    .middle-content{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 115px;
+        top: 540px;
+        .free-icon{
+            background: rgba(255, 255, 255, 0.17);
+            border-radius: 16px;
+            width: 302px;
+            height: 122px;
+            padding-left: 33px;
+            display: flex;
+            align-items: center;
+            .number{
+                font-family: 'Space Grotesk', sans-serif;
+                font-weight: 700;
+                font-size: 81.9394px;
+                line-height: 105px;
+                letter-spacing: -0.045em;
+                background: linear-gradient(128.98deg, #3AFF4E -27.85%, #DBFF00 32.46%, #FFB800 91.76%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-shadow: 5px 8px 30px #FFC83A;
+            }
+            .text{
+                font-family: 'Space Grotesk', sans-serif;
+                font-weight: 500;
+                font-size: 41.6px;
+                line-height: 44px;
+                letter-spacing: -0.05em;
+                color: #FFF;
+                margin-left: 28px;
+            }
+        }
+        .text-info{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            color: #FFFFFF;
+            font-size: 24.1579px;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            width: 245px;
+            margin-left: 28px;
+        }
+    }
+    .title{
+        position: absolute;
+        width: 800px;
+        left: 112px;
+        top: 262px;
+        font-weight: 800;
+        font-size: 120px;
+        line-height: 110px;
+        color: #FFFFFF;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+    .btn{
+        position: absolute;
+        left: 109px;
+        top: 128px;
+        padding: 22px 25px;
+        background-color: #56FFA4;
+        border-radius: 38px;
+        color: #17172B;
+        font-family: $font-family;
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+}
